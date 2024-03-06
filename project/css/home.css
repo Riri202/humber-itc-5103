@@ -1,0 +1,219 @@
+.top {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/blue_mountains_landscape.jpg) /*Source: https://www.hdwallpapers.in/blue_mountains_landscape_4k_8k-wallpapers.html*/; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+nav {
+    text-align: center;
+    font-family: Century Gothic, serif;
+    padding: 5px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-shadow: #eee;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    color: #eee;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(233, 239, 249);
+}
+
+nav a:hover {
+    color: rgb(159, 193, 100);
+}
+
+
+header {
+    text-align: center;
+    font-family: Rockwell, serif;
+    font-size: 3em;
+    line-height: 100%;
+    padding-bottom: 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(233, 239, 249);
+}
+
+header a:hover {
+    text-shadow: 5px 5px 5px rgb(159, 193, 100);
+}
+
+#main1title {
+    padding-top: 30px;
+    text-align: center;
+    color: #2b378b;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main1 {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 0;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.blogpost {
+    width: 31%;
+    float: left;
+    margin: 0 1%;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e6f7ff;
+}
+
+
+.blogpost p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Open Sans, sans-serif;
+}
+
+.blogpost h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+#blogimage {
+    max-width: 100%;
+    height: 350px;
+    width: 1000px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#readmore {
+    bottom: 20px;
+    left: 50%;
+    padding: 10px 20px;
+    background-color: #477efd;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#readmore:hover {
+    color: rgb(159, 193, 100);
+}
+
+#section2title {
+    clear: both;
+    text-align: center;
+    color: #2b378b;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main2 {
+    width: 100%;
+}
+
+.review {
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+    margin-bottom: 50px;
+    background-color: #f5f5f5;
+    border:solid#d8c596;
+}
+
+.review p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  
+}
+
+.review h4 {
+    color: #444;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-family: Brush Script MT, cursive;
+    text-align: center;
+}
+
+.intro {
+    overflow: hidden;
+    background-color: #e6f7ff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#introtitle {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#introtext {
+    width: 70%;
+    box-sizing: border-box;
+    margin-top: 0;
+    height: 100%;
+    color: #666;
+    font-size: 30px;
+    line-height: 1.6;
+    font-family: Open Sans, sans-serif;
+}
+
+#introimage {
+    float: right;
+    width: 30%;
+    max-width: 100%;
+    margin-left: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: Montserrat, serif;
+    clear: both;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #F8F8F8;
+
+}

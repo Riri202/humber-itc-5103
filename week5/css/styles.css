@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 10px;
+}
+
+main {
+  min-height: 70vh;
+  padding: 20px;
+  /* width: 75%; */
+  overflow: auto;
+  background-color: bisque;
+}
+
+#float-img {
+  float: right;
+  clear: both;
+}
+
+#float-nav {
+  float: left;
+  min-height: 70vh;
+}
+
+nav {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+}

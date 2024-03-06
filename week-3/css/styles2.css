@@ -1,0 +1,18 @@
+h1{
+    color: #191970;
+    background-color: #aeaed4;
+    text-align: center;
+}
+
+nav{
+    font-size: larger;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.body-text{
+    color: #191970;
+    text-indent: 55px;
+}

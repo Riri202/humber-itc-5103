@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+nav {
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+
+}

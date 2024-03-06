@@ -1,0 +1,62 @@
+h1 {
+  font-family: "Century Gothic", "serif";
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 400%;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Gabriola", "sans-serif";
+  font-size: 2em;
+  color: rgb(35, 102, 12);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: "Gabriola", "sans-serif";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header {
+  background-color: rgb(65, 132, 42);
+  color: #eee;
+}
+
+nav {
+  font-family: "Century Gothic", "serif";
+  text-align: center;
+}
+
+nav a {
+  color: rgb(35, 102, 12);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+footer nav a {
+  color: #eee;
+}
+
+footer {
+  font-family: "Century Gothic", "serif";
+  font-size: smaller;
+  background-color: rgb(65, 132, 42);
+  color: #eee;
+}
+
+dt {
+  font-family: "Gabriola", "sans-serif";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#copyright {
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+}

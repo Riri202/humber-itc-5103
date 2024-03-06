@@ -1,0 +1,43 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav a {
+    margin: 15px;
+}
+#page-1 {
+  background-image: url("../images/transparent_canadian_flag.png");
+  opacity: 0.25;
+}
+
+#page-2 {
+  background-image: url("../images/transparent_canadian_flag.png");
+  background-size: cover;
+}
+
+#page-3 {
+  background-image: url("../images/transparent_canadian_flag.png");
+  background-repeat: repeat;
+  background-size: 30px 20px;
+}
+
+#page-4 {
+  background-image: url("../images/transparent_canadian_flag.png");
+  background-repeat: repeat-y;
+  background-size: 30px 20px;
+
+}
+.with-border {
+  border-top: 5px solid #000;
+  border-top-right-radius: 15px;
+  padding-top: 5px;
+}

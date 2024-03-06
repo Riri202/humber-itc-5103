@@ -1,0 +1,173 @@
+#city_farmer_hero {
+  float: left;
+  clear: both;
+  margin-right: 20px;
+}
+
+#city_farmer_header_text {
+  margin: 10px;
+}
+
+#city_farmer_main {
+  background-color: burlywood;
+  padding: 15px;
+  min-height: 70vh;
+}
+
+#city_farmer_body {
+  margin: 10px 30px;
+  background-color: aqua;
+}
+
+#city_farmer_body header {
+  margin: 0;
+}
+
+.float-img-right {
+  float: right;
+  clear: both;
+  margin: 15px;
+}
+
+.float-img-left {
+  float: left;
+  clear: both;
+  margin: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: aquamarine;
+}
+
+#lighthouse-header {
+  text-align: left;
+  width: 100%;
+  font-family: cursive;
+  font-size: 200%;
+}
+
+#lighthouse-body {
+  margin: 0;
+  background-color: aquamarine;
+}
+
+#lighthouse-main {
+  padding: 15px;
+  background-color: #fff;
+  overflow: auto;
+}
+
+#lighthouse-nav {
+  float: left;
+  clear: both;
+  width: 12%;
+  margin-top: -16px;
+}
+
+#lighthouse-nav ul li {
+  background-color: pink;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+#lighthouse-nav ul {
+  padding: 0px;
+}
+
+#lighthouse-nav ul li a {
+  color: white;
+}
+
+#door-nav-left {
+  float: left;
+  padding: 20px;
+  width: 10%;
+  min-height: 90vh;
+  font-weight: 600;
+}
+
+#door-nav-left ul li a {
+  color: green;
+  font-weight: 500px;
+  margin-bottom: 15px;
+}
+
+#door-nav-right {
+  float: right;
+  width: 15%;
+  padding: 20px;
+  min-height: 90vh;
+}
+
+#door-main {
+  float: left;
+  width: 65%;
+  padding: 15px;
+}
+
+#door-body, .green-footer {
+  margin: 0px;
+  color: green;
+  font-family: sans-serif;
+}
+
+h4 {
+  color: purple;
+  font-size: 18px;
+  border-bottom: 2px solid purple;
+}
+#door-main div section h3 {
+  color: purple;
+  font-size: 25px;
+}
+
+#door-main div section p {
+  margin-left: 15PX;
+}
+
+.side-nav {
+  background-color: lightgray;
+}
+
+footer {
+  clear: both;
+}
+
+#door-header {
+  background-image: url("../images/hand-grips-a-gardening-tool-to-cut-back-a-plant.jpg");
+  background-position: contain;
+  background-size: cover;
+  padding: 50px;
+}
+
+#door-header h1 {
+  margin: 0px;
+  line-height: 30px;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.nested-float-text {
+    overflow: auto;
+}
+
+#footer-blue-text {
+  color: blue;
+}
+
+.blue-link {
+  text-decoration: underline;
+  color: blueviolet;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: pink;
+    margin: 0px;
+}
+
+header{
+    padding: 10px;
+}
+
+nav ul li {
+    width: 100%;
+    display: inline;
+}
+
+nav {
+    background-color: blanchedalmond;
+width: 100%;
+}

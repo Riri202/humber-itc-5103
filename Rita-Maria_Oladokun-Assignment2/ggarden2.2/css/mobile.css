@@ -1,0 +1,59 @@
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+nav {
+    border-bottom: 1px solid rgb(158, 194, 143);
+    margin-bottom: 5px;
+    float: none;
+}
+
+h1 {
+    line-height: normal;
+    font-size: 20px;
+    padding: 20px 10px;
+
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.item25 {
+    width: 50%;
+}
+
+.item25 h3 {
+    font-size: 50%;
+}
+
+nav ul li {
+    display: block;
+    font-size: 12px;
+}
+
+#categories section img {
+    width: 120px;
+    height: 120px;
+
+}
+
+.item33 {
+   display: block;
+   float: none;
+   padding-left: 40%; 
+}
+
+#categories section {
+    float: none;
+    width: 100%;
+}
+
+#wrapper p, #categories section span {
+    font-size: 13px;
+}

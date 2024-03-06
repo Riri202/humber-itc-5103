@@ -1,0 +1,24 @@
+h1{
+    color: #fff;
+    background-color: #191970;
+}
+h2{
+    color: #191970;
+    background-color: #aeaed4;
+}
+
+nav{
+    font-size: larger;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.body-text{
+    color: #191970
+}
+
+ul {
+    font-weight: bold;
+}

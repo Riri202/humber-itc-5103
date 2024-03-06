@@ -1,0 +1,49 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+h1 {
+  color: #fff;
+  background-color: #191970;
+}
+h2 {
+  color: #191970;
+  background-color: #aeaed4;
+  text-indent: 55px;
+}
+
+nav {
+  font-size: larger;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  color: #191970;
+  text-indent: 55px;
+}
+
+span {
+    font-size: bold;
+    text-transform: capitalize;
+}
+
+.red-list-item {
+    color: red;
+}
+
+.footer {
+    font-style: italic;
+    text-indent: 0%;
+}
+
+.body-text span {
+    font-weight: bold;
+}
+
+ul {
+    font-weight: bold;
+}
