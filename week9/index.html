@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>First form</h1>
+    </header>
+    <form action="./webpages/secondPage.html" method="get">
+      <fieldset>
+        <legend>Random form</legend>
+        <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" id="firstname" />
+        <br />
+        <br />
+        <label for="lastname">Lastname</label>
+        <input type="text" name="lastname" id="lastname" />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" />
+        <br />
+        <br />
+        <label for="fav_lang">What is your favorite course</label>
+        <br />
+        <br />
+        <input type="radio" name="fav_lang" id="html" value="html" />
+        <label for="fav_lang">html</label>
+        <input type="radio" name="fav_lang" id="css" value="css" />
+        <label for="fav_lang">css</label>
+        <input
+          type="radio"
+          name="fav_lang"
+          id="javascript"
+          value="javascript"
+        />
+        <label for="fav_lang">javascript</label>
+        <br />
+        <br />
+        <label for="">Courses you are enrolled in</label>
+        <input type="checkbox" name="html" id="html" />
+        <label for="html">html</label>
+        <input type="checkbox" name="css" id="css" />
+        <label for="css">css</label>
+        <br />
+        <br />
+        <label for="fav_lang">Select your favorite language</label>
+        <select name="fav_lang" id="">
+          <option value="html">html</option>
+          <option value="css">css</option>
+          <option value="javascript">javascript</option>
+        </select>
+        <br />
+        <br />
+        <label for="">Add extra text</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br />
+        <br />
+        <input type="button" value="Register" />
+      </fieldset>
+    </form>
+    <script>
+    //   function addNumbers(a, b) {
+    //     const sum = a + b;
+    //     return `the sum is ${sum}`;
+    //   }
+    //   document.write(addNumbers(2, 44));
+
+    //   const $ = function (selector) {
+    //     return document.querySelector(selector);
+    //   };
+    //   document.write($("firstname" ))
+
+      const multiply = function(a, b) {
+        return a * b
+      }
+ 
+      function add (a, b) {
+        return a + b
+      }
+      console.log({addResult: add(3, 5), multiplyResult: multiply(2, 6)})
+    </script>
+  </body>
+</html>
